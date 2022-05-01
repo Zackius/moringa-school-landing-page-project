@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'nunito';
+    overflow:scroll;
+  
+}
+button{
+    background-color: #EC4067;
+    color:white;
+    border: none;
+    border-radius: 16px 0;
+    font-size: 20px;
+    padding: 10px;
+
+}h4{
+    color: #EC4067;
+}
+
+nav{
+    display: block;
+    padding: 10px;
+}
+nav h1{
+    font-size: xx-large;
+}
+nav h1 span{
+    color: #EC4067;
+}
+nav ul{
+    
+    list-style-type: none;
+    float: right;
+}
+nav ul li{
+    display: inline;
+    padding:50px;
+    font-size: 20px;
+
+}
+nav ul li a :hover{
+color:blueviolet
+}
+.flex-container{
+    display: flex;
+    margin: 20px;
+
+}
+.flex-container div{
+     width: 700px
+    
+     
+}
+.context{
+    align-items: center;
+    padding-top:400px;
+    margin: 20px;
+    float: left;
+    
+}
+.flex-container h2{
+    color: #EC4067;
+}
+.btn{
+    background-color: white;
+    color: black;
+    border: 1px solid;
+}
+
+main img{
+    float: right;
+}
+.heading p strong{
+    font-size: 40px;
+}
+.context-story{
+    padding-top: 300px;
+    padding-left:700px;
+    float: right;
+    
+}
+section p strong{
+    font-size: 30px;
+}
+.flex-mentors{
+ display: flex;
+ margin: 30px;
+ 
+}
+.flex-mentors div{
+    padding: 30px;
+}
+.mentor{
+    position: relative;
+}
+.words{
+    position: absolute;
+    top:350px;
+    padding-left:170px;
+}
+.words h2{
+  color: white;
+}
+.karimi{
+    position: absolute;
+    top: 320px;
+    padding-left:170px;
+}
+.karimi h2{
+    color:white;
+}
+.karimi{
+    display: flex;
+  
+  
+}
+.karimi div{
+padding-left: 30px;
+}
+.footer h2{
+    color:#EC4067
+} 
+.footer p span{
+    color: #EC4067;
+}   
+
