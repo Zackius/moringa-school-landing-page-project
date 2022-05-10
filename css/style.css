@@ -2,7 +2,8 @@ body{
     margin: 0;
     padding: 0;
     font-family:'nunito';
-    overflow:scroll;
+    overflow-x: hiddengit bra;
+  
   
 }
 button{
@@ -12,14 +13,16 @@ button{
     border-radius: 16px 0;
     font-size: 20px;
     padding: 10px;
-
-}h4{
+}
+h4{
     color: #EC4067;
 }
 
 nav{
     display: block;
     padding: 10px;
+    margin: 20px;
+    height: ;
 }
 nav h1{
     font-size: xx-large;
@@ -34,7 +37,7 @@ nav ul{
 }
 nav ul li{
     display: inline;
-    padding:50px;
+    padding-top:50px;  
     font-size: 20px;
 
 }
@@ -43,18 +46,22 @@ color:blueviolet
 }
 .flex-container{
     display: flex;
-    margin: 20px;
+    margin: 40px;
+
+
 
 }
 .flex-container div{
-     width: 700px
+    
+    flex-direction: column;
+    margin: 40px;
+     flex: 1;
     
      
 }
 .context{
-    align-items: center;
-    padding-top:400px;
-    margin: 20px;
+ justify-content: center;v
+ margin: 20px;
     float: left;
     
 }
@@ -75,7 +82,7 @@ main img{
 }
 .context-story{
     padding-top: 300px;
-    padding-left:700px;
+    padding-left:500px;
     float: right;
     
 }
@@ -91,7 +98,8 @@ section p strong{
     padding: 30px;
 }
 .mentor{
-    position: relative;
+   flex-wrap: wrap;
+
 }
 .words{
     position: absolute;
