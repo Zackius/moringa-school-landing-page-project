@@ -22,7 +22,6 @@ nav{
     display: block;
     padding: 10px;
     margin: 20px;
-    height: ;
 }
 nav h1{
     font-size: xx-large;
@@ -37,8 +36,9 @@ nav ul{
 }
 nav ul li{
     display: inline;
-    padding-top:50px;  
+
     font-size: 20px;
+    padding: 40px;
 
 }
 nav ul li a :hover{
@@ -60,9 +60,10 @@ color:blueviolet
      
 }
 .context{
- justify-content: center;v
+ justify-content: center;
  margin: 20px;
     float: left;
+    padding-top: 80px;
     
 }
 .flex-container h2{
@@ -98,13 +99,12 @@ section p strong{
     padding: 30px;
 }
 .mentor{
-   flex-wrap: wrap;
+  position:relative ;
 
 }
 .words{
     position: absolute;
-    top:350px;
-    padding-left:170px;
+    top:40%;
 }
 .words h2{
   color: white;
@@ -123,12 +123,4 @@ section p strong{
   
 }
 .karimi div{
-padding-left: 30px;
-}
-.footer h2{
-    color:#EC4067
-} 
-.footer p span{
-    color: #EC4067;
-}   
-
+padding-left: 30px;gi
