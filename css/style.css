@@ -22,7 +22,6 @@ nav{
     display: block;
     padding: 10px;
     margin: 20px;
-    height: ;
 }
 nav h1{
     font-size: xx-large;
@@ -37,9 +36,13 @@ nav ul{
 }
 nav ul li{
     display: inline;
-    padding-top:50px;  
+
     font-size: 20px;
+<<<<<<< HEAD
     padding: 30px;
+=======
+    padding: 40px;
+>>>>>>> 515a11e3d2314b1e6998352c9769ccbc84781b04
 
 }
 nav ul li a :hover{
@@ -62,11 +65,18 @@ color:blueviolet
 }
 .context{
  justify-content: center;
+<<<<<<< HEAD
  padding-top: 10%;    
 }
 .context-2{
     justify-content: center;
     padding: 30px;
+=======
+ margin: 20px;
+    float: left;
+    padding-top: 80px;
+    
+>>>>>>> 515a11e3d2314b1e6998352c9769ccbc84781b04
 }
 .flex-container h2{
     color: #EC4067;
@@ -106,16 +116,21 @@ flex-wrap: wrap;
 
 }
 .mentor{
-   flex-wrap: wrap;
+  position:relative ;
 
 }
 .words{
     position: absolute;
+<<<<<<< HEAD
    top: 60%;
+=======
+    top:40%;
+>>>>>>> 515a11e3d2314b1e6998352c9769ccbc84781b04
 }
 .words h2{
   color: white;
 }
+<<<<<<< HEAD
 .footer{
     background-color: rgb(230, 224, 224);
 }
@@ -126,3 +141,20 @@ flex-wrap: wrap;
     color: #EC4067;
 }   
 
+=======
+.karimi{
+    position: absolute;
+    top: 320px;
+    padding-left:170px;
+}
+.karimi h2{
+    color:white;
+}
+.karimi{
+    display: flex;
+  
+  
+}
+.karimi div{
+padding-left: 30px;gi
+>>>>>>> 515a11e3d2314b1e6998352c9769ccbc84781b04
