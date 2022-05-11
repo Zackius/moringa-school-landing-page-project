@@ -39,6 +39,7 @@ nav ul li{
     display: inline;
     padding-top:50px;  
     font-size: 20px;
+    padding: 30px;
 
 }
 nav ul li a :hover{
@@ -54,16 +55,18 @@ color:blueviolet
 .flex-container div{
     
     flex-direction: column;
-    margin: 40px;
+    margin: 10px;
      flex: 1;
     
      
 }
 .context{
- justify-content: center;v
- margin: 20px;
-    float: left;
-    
+ justify-content: center;
+ padding-top: 10%;    
+}
+.context-2{
+    justify-content: center;
+    padding: 30px;
 }
 .flex-container h2{
     color: #EC4067;
@@ -82,7 +85,7 @@ main img{
 }
 .context-story{
     padding-top: 300px;
-    padding-left:500px;
+    padding-left:600px;
     float: right;
     
 }
@@ -96,6 +99,11 @@ section p strong{
 }
 .flex-mentors div{
     padding: 30px;
+flex-wrap: wrap;
+}
+.img{
+    position: relative;
+
 }
 .mentor{
    flex-wrap: wrap;
@@ -103,27 +111,13 @@ section p strong{
 }
 .words{
     position: absolute;
-    top:350px;
-    padding-left:170px;
+   top: 60%;
 }
 .words h2{
   color: white;
 }
-.karimi{
-    position: absolute;
-    top: 320px;
-    padding-left:170px;
-}
-.karimi h2{
-    color:white;
-}
-.karimi{
-    display: flex;
-  
-  
-}
-.karimi div{
-padding-left: 30px;
+.footer{
+    background-color: rgb(230, 224, 224);
 }
 .footer h2{
     color:#EC4067
